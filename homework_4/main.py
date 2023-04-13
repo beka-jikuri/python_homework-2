@@ -1,4 +1,4 @@
-"""
+
 # Dictionaries (quiz tasks)
 
 # N1-------------------------------------------------------------------
@@ -58,9 +58,10 @@ print(f"\nusername: {name} {surname}")
 print(f"age: {age}")
 print(f"adress: {country}, {city}")
 
+print()
 
 # N5-------------------------------------------------------------------
-"""
+
 city1 = str.capitalize(input("1st city: "))
 population1 = int(input(f"population of {city1}: "))
 
@@ -75,6 +76,10 @@ population4 = int(input(f"population of {city4}: "))
 
 
 cities = [{city1:population1},{city2:population2}, {city3:population3}, {city4:population4}]
+
+print()
+
+print(cities[0])
 
 
 
