@@ -1,3 +1,4 @@
+"""
 # Dictionaries (quiz tasks)
 
 # N1-------------------------------------------------------------------
@@ -56,6 +57,24 @@ id_card = {"Name":name, "surname":surname,"age":age, "country":country,"city":ci
 print(f"\nusername: {name} {surname}")
 print(f"age: {age}")
 print(f"adress: {country}, {city}")
+
+
+# N5-------------------------------------------------------------------
+"""
+city1 = str.capitalize(input("1st city: "))
+population1 = int(input(f"population of {city1}: "))
+
+city2 = str.capitalize(input("2nd city: "))
+population2 = int(input(f"population of {city2}: "))
+
+city3 = str.capitalize(input("3rd city: "))
+population3 = int(input(f"population of {city3}: "))
+
+city4 = str.capitalize(input("4th city: "))
+population4 = int(input(f"population of {city4}: "))
+
+
+cities = [{city1:population1},{city2:population2}, {city3:population3}, {city4:population4}]
 
 
 
