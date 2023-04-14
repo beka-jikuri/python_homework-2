@@ -75,13 +75,28 @@ city4 = str.capitalize(input("4th city: "))
 population4 = int(input(f"population of {city4}: "))
 
 
-cities = [{city1:population1},{city2:population2}, {city3:population3}, {city4:population4}]
+cities ={
+    city1:population1,
+    city2:population2,
+    city3:population3,
+    city4:population4
+}
+
+largest_city = max(cities, key=cities.get)
+smalest_city = min(cities, key=cities.get)
 
 print()
 
-print(cities[0])
+print(f"{largest_city} has the largest population")
+print(f"{smalest_city} has the smalest population")
+
+
+# N6-------------------------------------------------------------------
 
 
 
+employees = ["Beka", "Nomi","Kato"]
+defaults = { "designation":'Aplication Developer',
+            "salary": 8000 }
 
 
